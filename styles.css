@@ -1,0 +1,127 @@
+/* Reset default margin and padding */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum height of the viewport */
+}
+
+/* Header styles */
+header {
+  background-color: #ffe600e1;
+  color: #000000;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+    
+.logo img,
+.user-icon img {
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px;
+}
+
+h1 {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  border-radius: 20px; /* Rounded ends */
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  padding: 10px;
+  border-radius: 20px; /* Rounded ends for dropdown */
+}
+
+.dropdown li {
+  margin: 10px 0;
+}
+
+.dropdown a {
+  color: #fff;
+}
+
+.dropdown a:hover {
+  color: #ffcc00;
+}
+
+/* Main content styles */
+#content {
+  padding: 20px;
+  text-align: center;
+}
+
+#content h2 {
+  color: #333;
+}
+
+#content p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #ffe600e1; /* Same color as the header */
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: #000000; /* Text color for the footer */
+  margin-top: auto; /* Pushes the footer to the bottom */
+  border-top-left-radius: 20px; /* Only top-left corner rounded */
+  border-top-right-radius: 20px; /* Only top-right corner rounded */
+}
+
+/* Additional styles for dropdowns */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  border-radius: 20px;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul li {
+  width: 200px; /* Set dropdown width */
+  display: list-item;
+  border-radius: 20px;
+}
+
+nav ul ul ul {
+  left: 100%;
+  top: 0;
+}

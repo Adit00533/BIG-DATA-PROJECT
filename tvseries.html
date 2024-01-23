@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TV Shows - StreamPix</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Your existing button styles */
+    .tv-series img {
+      width: 150px;
+      height: auto;
+    }
+    .tv-series button {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    .tv-series button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Header content -->
+    <!-- ... -->
+    <div class="logo">
+      <img src="C:\Users\91843\Downloads\PRROJECT\Screenshot 2023-12-29 131330.png" alt="StreamPix Logo">
+    </div>
+    <h1>StreamPix</h1>
+    <nav>
+      <ul>
+        <li><a href="movies.html" id="moviesLink">Movies</a>
+          <ul class="dropdown">
+            <!-- Movie list -->
+            <li><a href="#">The Shawshank Redemption</a></li>
+            <li><a href="#">Inception</a></li>
+            <li><a href="#">The Godfather</a></li>
+            <li><a href="#">The Dark Knight</a></li>
+            <li><a href="#">Pulp Fiction</a></li>
+            <li><a href="#">Forrest Gump</a></li>
+            <!-- Add more movie names here -->
+          </ul>
+        </li>
+        <li><a href="tvseries.html" id="tvShowsLink">TV Shows</a>
+          <ul class="dropdown">
+            <!-- TV show list -->
+            <li><a href="#">Breaking Bad</a></li>
+            <li><a href="#">Game of Thrones</a></li>
+            <li><a href="#">Stranger Things</a></li>
+            <li><a href="#">The Crown</a></li>
+            <li><a href="#">Friends</a></li>
+            <li><a href="#">The Mandalorian</a></li>
+          </ul>
+        </li>
+        <!-- New Subscribe button -->
+        <li><a href="subscribe.html" id="subscribeLink">Subscribe</a></li>
+      </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="user-icon">
+      <img src="C:\Users\91843\Downloads\PRROJECT\Screenshot 2023-12-29 132606.png" alt="User Icon">
+    </div>
+  </header>
+
+  <main id="content">
+    <h1>TV Shows</h1>
+    
+    <!-- TV Series List with Images -->
+    <div class="tv-series-list">
+      <div class="tv-series">
+        <img src="https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg" alt="TV Series 1">
+        <p>Breaking Bad</p>
+        <!-- Updated button using existing button styles -->
+        <button><a href="#" target="_blank" style="color: white; text-decoration: none;">Watch Now</a></button>
+      </div>
+      <div class="tv-series">
+        <img src="https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg" alt="TV Series 2">
+        <p>Game of Thrones</p>
+        <!-- Updated button using existing button styles -->
+        <button><a href="#" target="_blank" style="color: white; text-decoration: none;">Watch Now</a></button>
+      </div>
+      <!-- Add more TV series with images, names, and watch buttons here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 StreamPix. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="frontend.js"></script>
+</body>
+</html>

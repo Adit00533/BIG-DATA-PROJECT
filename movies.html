@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movies - StreamPix</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .movie img {
+      width: 150px; /* Adjust the width as needed */
+      height: auto; /* Automatically adjust the height */
+    }
+    .movie button {
+      background-color: #f44336; /* Red color, you can adjust */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    .movie button a {
+      color: white;
+      text-decoration: none;
+    }
+    .movie button:hover {
+      background-color: #555; /* Darker red color on hover, you can adjust */
+    }
+    .logo img {
+      width: 100px; /* Adjust the width as needed */
+      height: auto; /* Automatically adjust the height */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Header content with the logo -->
+    <div class="logo">
+      <img src="C:\Users\91843\Downloads\PRROJECT\Screenshot 2023-12-29 131330.png" alt="StreamPix Logo">
+    </div>
+    <h1>StreamPix</h1>
+    <nav>
+      <ul>
+        <li><a href="movies.html" id="moviesLink">Movies</a>
+          <ul class="dropdown">
+            <!-- Movie list -->
+            <li><a href="#">The Shawshank Redemption</a></li>
+            <li><a href="#">Inception</a></li>
+            <li><a href="#">The Godfather</a></li>
+            <li><a href="#">The Dark Knight</a></li>
+            <li><a href="#">Pulp Fiction</a></li>
+            <li><a href="#">Forrest Gump</a></li>
+            <!-- Add more movie names here -->
+          </ul>
+        </li>
+        <li><a href="tvseries.html" id="tvShowsLink">TV Shows</a>
+          <ul class="dropdown">
+            <!-- TV show list -->
+            <li><a href="#">Breaking Bad</a></li>
+            <li><a href="#">Game of Thrones</a></li>
+            <li><a href="#">Stranger Things</a></li>
+            <li><a href="#">The Crown</a></li>
+            <li><a href="#">Friends</a></li>
+            <li><a href="#">The Mandalorian</a></li>
+          </ul>
+        </li>
+        <!-- New Subscribe button -->
+        <li><a href="subscribe.html" id="subscribeLink">Subscribe</a></li>
+      </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="user-icon">
+      <img src="C:\Users\91843\Downloads\PRROJECT\Screenshot 2023-12-29 132606.png" alt="User Icon">
+    </div>
+  </header>
+
+  <main id="content">
+    <h1>Movies</h1>
+    
+    <!-- Movie List with Images -->
+    <div class="movie-list">
+      <div class="movie">
+        <img src="https://m.media-amazon.com/images/M/MV5BYWVlMjVhZWYtNWViNC00ODFkLTk1MmItYjU1MDY5ZDdhMTU3XkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_.jpg" alt="Movie 1">
+        <p>Bãhubali: The Beginning</p>
+        <button><a href="https://www.example.com/watch-shawshank-redemption" target="_blank" style="color: white; text-decoration: none;">Watch Now</a></button>
+      </div>
+      <div class="movie">
+        <img src="https://m.media-amazon.com/images/M/MV5BNTg2OTY2ODg5OF5BMl5BanBnXkFtZTcwODM5MTYxOA@@._V1_FMjpg_UX1000_.jpg": alt="Movie 2">
+        <p>Life of pi</p>
+        <button><a href="https://www.example.com/watch-inception" target="_blank" style="color: white; text-decoration: none;">Watch Now</a></button>
+      </div>
+      <div class="movie">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d0/K.G.F_Chapter_2.jpg": alt="Movie 2">
+        <p>K.G.F: CHAPTER 2</p>
+        <button><a href="https://www.example.com/watch-inception" target="_blank" style="color: white; text-decoration: none;">Watch Now</a></button>
+      </div>
+      <!-- Add more movies with images, names, and watch buttons here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 StreamPix. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="frontend.js"></script>
+</body>
+</html>

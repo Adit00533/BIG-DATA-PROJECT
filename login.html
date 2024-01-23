@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - StreamPix</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include any additional stylesheets or CSS -->
+  <style>
+    /* Style for login form */
+    .login-container {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    .login-container h2 {
+      text-align: center;
+    }
+    .login-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .login-form input {
+      margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+    .login-form button {
+      padding: 8px;
+      border-radius: 3px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+    }
+    .login-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="C:\Users\91843\Downloads\PRROJECT\Screenshot 2023-12-29 131330.png" alt="StreamPix Logo">
+      </div>
+      <h1>StreamPix</h1>
+      <nav>
+        <ul>
+          <li><a href="movies.html" id="moviesLink">Movies</a>
+            <ul class="dropdown">
+              <!-- Movie list -->
+              <li><a href="#">The Shawshank Redemption</a></li>
+              <li><a href="#">Inception</a></li>
+              <li><a href="#">The Godfather</a></li>
+              <li><a href="#">The Dark Knight</a></li>
+              <li><a href="#">Pulp Fiction</a></li>
+              <li><a href="#">Forrest Gump</a></li>
+              <!-- Add more movie names here -->
+            </ul>
+          </li>
+          <li><a href="tvseries.html" id="tvShowsLink">TV Shows</a>
+            <ul class="dropdown">
+              <!-- TV show list -->
+              <li><a href="#">Breaking Bad</a></li>
+              <li><a href="#">Game of Thrones</a></li>
+              <li><a href="#">Stranger Things</a></li>
+              <li><a href="#">The Crown</a></li>
+              <li><a href="#">Friends</a></li>
+              <li><a href="#">The Mandalorian</a></li>
+            </ul>
+          </li>
+          <!-- New Subscribe button -->
+          <li><a href="subscribe.html" id="subscribeLink">Subscribe</a></li>
+        </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-icon">
+        <img src="C:\Users\91843\Downloads\PRROJECT\Screenshot 2023-12-29 132606.png" alt="User Icon">
+      </div>
+  </header>
+
+  <div class="login-container">
+    <h2>Login to StreamPix</h2>
+    <form class="login-form">
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div class="subscription">
+    <!-- Subscription plans -->
+    <!-- ... -->
+  </div>
+
+  <footer>
+    <p>&copy; 2023 StreamPix. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

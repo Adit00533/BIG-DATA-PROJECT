@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BIG-DATA-PROJECT</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* CSS for Movies, TV Shows, Subscribe, and Login buttons */
+    #moviesLink, #tvShowsLink, #subscribeLink {
+      color: black;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      border: 2px solid black;
+      transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    }
+    #moviesLink:hover, #tvShowsLink:hover, #subscribeLink:hover {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Header content -->
+    <div class="logo">
+      <img src="C:\Users\91843\Downloads\PRROJECT\Screenshot 2023-12-29 131330.png" alt="StreamPix Logo">
+    </div>
+    <h1>StreamPix</h1>
+    <nav>
+      <ul>
+        <li><a href="movies.html" id="moviesLink">Movies</a>
+          <ul class="dropdown">
+            <!-- Movie list -->
+            <li><a href="#">The Shawshank Redemption</a></li>
+            <li><a href="#">Inception</a></li>
+            <li><a href="#">The Godfather</a></li>
+            <li><a href="#">The Dark Knight</a></li>
+            <li><a href="#">Pulp Fiction</a></li>
+            <li><a href="#">Forrest Gump</a></li>
+            <!-- Add more movie names here -->
+          </ul>
+        </li>
+        <li><a href="tvseries.html" id="tvShowsLink">TV Shows</a>
+          <ul class="dropdown">
+            <!-- TV show list -->
+            <li><a href="#">Breaking Bad</a></li>
+            <li><a href="#">Game of Thrones</a></li>
+            <li><a href="#">Stranger Things</a></li>
+            <li><a href="#">The Crown</a></li>
+            <li><a href="#">Friends</a></li>
+            <li><a href="#">The Mandalorian</a></li>
+          </ul>
+        </li>
+        <!-- New Subscribe button -->
+        <li><a href="subscribe.html" id="subscribeLink">Subscribe</a></li>
+      </ul>
+      
+        </li>
+      </ul>
+    </nav>
+    <div class="user-icon">
+      <a href="login.html">
+        <img src="C:\Users\91843\Downloads\PRROJECT\Screenshot 2023-12-29 132606.png" alt="User Icon">
+      </a>
+    </div>
+  </header>
+  
+  <main id="content">
+    <h2>
+      Unlimited movies, TV shows and more
+      Watch anywhere, anytime
+    </h2>
+    <p>Explore our vast collection of movies and TV shows.</p>
+    <p>Enter the movie you want to watch!!!</p>
+    <input type="text" id="searchBar" placeholder="Search...">
+    <div id="recommendations"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 StreamPix. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="frontend.js"></script>
+</body>
+</html>
